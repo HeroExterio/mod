@@ -1,5 +1,6 @@
 item.CopperIngot.name=Copper Ingot
-tile.KBlock.name=Kingdom Block
+tile.kingdomblock.name=Kingdom Block
+tile.copperOre.name=Copper Ore
 item.AlLiIngot.name=Aluminium Lithium Ingot
 item.AluminiumIngot.name=Aluminium Ingot
 item.BrassIngot.name=Brass Ingot
