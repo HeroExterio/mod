@@ -1,6 +1,5 @@
 package KingdomCraft.tileEntity;
 
-import KingdomCraft.util.KingdomProtectionUtil;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
@@ -15,7 +14,6 @@ public class KBlockTileEntity extends TileEntity implements IInventory{
 	
 	@Override
 	public void updateEntity(){ //Called every single tick
-		KingdomProtectionUtil.kingdoms.add(this);
 	}
 	
 	public boolean isBlockProtected(int x, int z){
@@ -101,14 +99,20 @@ public class KBlockTileEntity extends TileEntity implements IInventory{
 
 	@Override
 	public int getInventoryStackLimit() {
-		return 1;
+		return 1; //What is the stack limit? no like what is the stack size of items in here
 	}
 
 	@Override
-	public void openInventory() {}
+	public void openInventory() {
+		// TODO Auto-generated method stub
+		
+	}
 
 	@Override
-	public void closeInventory() {}
+	public void closeInventory() {
+		// TODO Auto-generated method stub
+		
+	}
 
 	@Override
 	public void writeToNBT(NBTTagCompound tag) {

@@ -1,6 +1,6 @@
-package KingdomCraft.gui;
+package KingdomCraft.Gui;
 
-import KingdomCraft.container.KBlockContainer;
+import KingdomCraft.BlockStorage.KBlockContainer;
 import KingdomCraft.tileEntity.KBlockTileEntity;
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.entity.player.EntityPlayer;
